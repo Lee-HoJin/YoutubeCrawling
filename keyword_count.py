@@ -3,7 +3,7 @@ import re
 from collections import Counter
 
 # CSV 파일 읽기
-df = pd.read_csv('patagonia_youtube_descriptions.csv')
+df = pd.read_csv('nike_youtube_descriptions.csv')
 print(f"📊 총 {len(df)}개 영상 분석 중...")
 
 # 방법 1: 기본적인 소문자 변환 방법
